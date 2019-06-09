@@ -1,0 +1,29 @@
+body {
+  background-color: #fafafa; }
+
+.column {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  background-color: #fafafa;
+  min-height: 600px; }
+  .column .button {
+    margin-top: 25px; }
+    .column .button:hover {
+      font-weight: bold;
+      border: 0.5px solid #b5b5b5; }
+  .column h3 {
+    font-weight: bold; }
+
+.topics-Container ul {
+  list-style-type: none;
+  -moz-column-count: 2;
+  -moz-column-gap: 5px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 5px;
+  column-count: 2;
+  column-gap: 5px; }
+
+.topics-Container .button {
+  margin-right: 50px; }

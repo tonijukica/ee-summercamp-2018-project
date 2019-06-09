@@ -1,0 +1,73 @@
+.selection-card-selected .button {
+  background-color: #00d1b2 !important; }
+
+.modal-Log {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 9999;
+  border: 1px solid darkgrey;
+  border-radius: 6px;
+  background: #fff;
+  padding: 10px; }
+
+.login-Backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  background: rgba(0, 0, 0, 0.3); }
+
+.selection-card-correct .button {
+  background-color: lightgreen !important; }
+
+.selection-card-false .button {
+  background-color: lightcoral !important; }
+
+.selection-card-missed .button {
+  background-color: rosybrown !important;
+  border: 2px solid green !important; }
+
+.active-question {
+  width: 40px;
+  height: 15px;
+  background-color: orange;
+  cursor: pointer; }
+
+.visited-question {
+  width: 25px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #ffdd57; }
+
+.unvisited-question {
+  width: 25px;
+  height: 10px;
+  background-color: grey; }
+
+.correct-question {
+  width: 25px;
+  height: 10px;
+  cursor: pointer;
+  background-color: lightgreen; }
+
+.correct-question-active {
+  width: 25px;
+  height: 10px;
+  cursor: pointer;
+  background-color: green; }
+
+.incorrect-question {
+  width: 25px;
+  height: 10px;
+  cursor: pointer;
+  background-color: orangered; }
+
+.incorrect-question-active {
+  width: 25px;
+  height: 10px;
+  cursor: pointer;
+  background-color: darkred; }

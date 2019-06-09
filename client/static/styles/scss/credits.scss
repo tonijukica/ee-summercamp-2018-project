@@ -1,0 +1,13 @@
+.footer{
+  h3{
+    color: black;
+    font-weight: bold;
+  }
+   a{
+    color: hsl(217, 71%, 53%);
+     &:hover{
+      color: hsl(0, 0%, 48%);
+      font-weight: bold;
+    }
+  }
+}

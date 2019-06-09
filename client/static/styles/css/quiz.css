@@ -1,0 +1,89 @@
+.quiz-Active-Container .clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.quiz-Active-Container .button:disabled {
+  opacity: 0.9; }
+
+.quiz-Active-Container .question-Num {
+  margin-right: 15px; }
+
+.quiz-Active-Container .btn-Back {
+  margin-top: 40px;
+  height: 40px;
+  min-width: 70px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #23d160;
+  font-size: large;
+  color: white; }
+  .quiz-Active-Container .btn-Back:hover {
+    font-weight: bold;
+    border: 0.5px solid #b5b5b5; }
+
+.quiz-Active-Container .btn-Eval {
+  margin-top: 40px;
+  height: 40px;
+  min-width: 70px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #209cee;
+  color: white;
+  font-size: large; }
+  .quiz-Active-Container .btn-Eval:hover {
+    font-weight: bold;
+    border: 0.5px solid #b5b5b5; }
+
+.quiz-Active-Container .btn-Close {
+  margin-top: 40px;
+  height: 40px;
+  min-width: 70px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #ff3860;
+  font-size: large;
+  color: white; }
+  .quiz-Active-Container .btn-Close:hover {
+    font-weight: bold;
+    border: 0.5px solid #b5b5b5; }
+
+.quiz-Active-Container .btn-Sub {
+  margin-top: 40px;
+  height: 40px;
+  min-width: 70px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #3273dc;
+  font-size: large;
+  color: white; }
+  .quiz-Active-Container .btn-Sub:hover {
+    font-weight: bold;
+    border: 0.5px solid #b5b5b5; }
+
+.quiz-Active-Container .btn-Share {
+  margin-top: 40px;
+  height: 40px;
+  min-width: 70px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #3273dc;
+  font-size: large;
+  color: white; }
+  .quiz-Active-Container .btn-Share:hover {
+    font-weight: bold; }
+
+.question {
+  font-size: large; }
+  .question .progress-Bar {
+    margin-top: 40px; }
+    .question .progress-Bar ul {
+      display: inline-table; }
+
+.code {
+  background-color: lightgrey;
+  border-left: 4px solid lightgrey;
+  border-right: 4px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 6px; }

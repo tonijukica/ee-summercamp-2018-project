@@ -1,0 +1,115 @@
+.quiz-Active-Container{
+  .clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+  .button:disabled {
+    opacity: 0.9;
+  }
+
+  .question-Num{
+    margin-right: 15px;
+  }
+
+  .btn-Back{
+    margin-top: 40px;
+    height: 40px;
+    min-width: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: hsl(141, 71%, 48%);
+    font-size: large;
+    color: white;
+
+    &:hover{
+      font-weight: bold;
+      border: 0.5px solid hsl(0, 0%, 71%);
+    }
+  }
+
+  .btn-Eval{
+    margin-top: 40px;
+    height: 40px;
+    min-width: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: hsl(204, 86%, 53%);
+    color: white;
+    font-size: large;
+
+    &:hover{
+      font-weight: bold;
+      border: 0.5px solid hsl(0, 0%, 71%);
+    }
+  }
+
+  .btn-Close{
+    margin-top: 40px;
+    height: 40px;
+    min-width: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: hsl(348, 100%, 61%);
+    font-size: large;
+    color: white;
+
+    &:hover{
+      font-weight: bold;
+      border: 0.5px solid hsl(0, 0%, 71%);
+    }
+  }
+
+  .btn-Sub{
+    margin-top: 40px;
+    height: 40px;
+    min-width: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: hsl(217, 71%, 53%);
+    font-size: large;
+    color: white;
+
+    &:hover{
+      font-weight: bold;
+      border: 0.5px solid hsl(0, 0%, 71%);
+    }
+  }
+
+  .btn-Share{
+    margin-top: 40px;
+    height: 40px;
+    min-width: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: hsl(217, 71%, 53%);
+    font-size: large;
+    color: white;
+
+    &:hover{
+      font-weight: bold;
+    }
+  }
+}
+
+.question{
+  font-size: large;
+
+  .progress-Bar{
+    margin-top: 40px;
+
+    ul{
+      display: inline-table;
+    }
+  }
+}
+
+.code {
+  background-color: lightgrey;
+  border-left: 4px solid lightgrey;
+  border-right: 4px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 6px;
+}

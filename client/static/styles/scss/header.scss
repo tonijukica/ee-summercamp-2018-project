@@ -1,0 +1,23 @@
+$headerColor: rgb(38, 38, 38);
+$colorTitle: hsl(48, 100%, 67%);
+$linkColor: hsl(348, 100%, 61%);
+
+.headerContainer{
+  background-image: url("../../images/blue_art-header-main.jpg");
+  justify-content: space-between;
+  background-color: $headerColor;
+  display: flex;
+  z-index: 1;
+  padding: 1.5em;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
+  .button{
+    &:hover{
+      font-weight: bold;
+    }
+  }
+}

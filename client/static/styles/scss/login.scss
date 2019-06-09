@@ -1,0 +1,35 @@
+.btn-Log{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.resume-Form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .button{
+    margin-right: 15px;
+  }
+}
+
+.share-results{
+  margin-top: 20px;
+
+  .field{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btn-close{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

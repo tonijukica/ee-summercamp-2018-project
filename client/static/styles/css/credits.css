@@ -1,0 +1,9 @@
+.footer h3 {
+  color: black;
+  font-weight: bold; }
+
+.footer a {
+  color: #3273dc; }
+  .footer a:hover {
+    color: #7a7a7a;
+    font-weight: bold; }
