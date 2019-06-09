@@ -1,6 +1,12 @@
 # Project Susnjara
 
-Team Susnjara EE Summer Camp 2018 project
+Team Susnjara EE Summer Camp 2018 project.
+
+##### Authors:
+ - Toni Jukica (Back-end)
+ - Zeljka Krivo (Styling)
+ - Antonio Milicic (Front-end)
+
 
 ## Development guidelines
 Some conventions we want to enforce cannot be covered by automated tools. They will ensure that our process and code is clean and consistent.
